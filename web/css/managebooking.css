@@ -1,0 +1,69 @@
+/* Main Content Styles */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+    background-color: #f4f6f9;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.search-filter {
+    margin-bottom: 20px;
+}
+
+.search-filter input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.bookings-list {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bookings-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bookings-list li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-info {
+    width: 80%;
+}
+
+.booking-info p {
+    margin: 5px 0;
+}
+
+.cancel-btn {
+    background: #fbb03b;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cancel-btn:hover {
+    background: #d99a30;
+}

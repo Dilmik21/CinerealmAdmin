@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 270px; /* Adjusted margin to fit sidebar */
+    padding: 20px;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Statistics Boxes */
+.statistics div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.statistics p {
+    background-color: #ffffff;
+    border: 10px solid #fbb03b;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Quick Links */
+.quick-links div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #fbb03b;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d99a30;
+}
+
+/* Recent Activities */
+.recent-activities ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.recent-activities li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+/* Performance Metrics */
+.performance-metrics {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.performance-metrics .deals-card {
+    margin: auto;
+    width: 90%;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}

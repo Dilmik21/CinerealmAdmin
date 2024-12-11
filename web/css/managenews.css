@@ -1,0 +1,97 @@
+/* Main Content Styles */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+    background-color: #f4f6f9;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.form-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.form-section form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-section form input,
+.form-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-section form .btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #fbb03b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.form-section form .btn:hover {
+    background: #d99a30;
+}
+
+.news-list {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-list input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.news-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-list li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-list li button {
+    background: #fbb03b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.news-list li button:hover {
+    background: #d99a30;
+}
+

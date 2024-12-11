@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+/* Main Content Styles */
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+/* User List */
+.user-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h2 {
+    margin-bottom: 20px;
+}
+
+.search-filter input {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Admin Management */
+.admin-management {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.admin-management h2 {
+    margin-bottom: 20px;
+}
+
+.admin-actions {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color:  #fbb03b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #d99a30;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+button.edit-btn, button.delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.edit-btn {
+    background-color:  #fbb03b;
+    color: white;
+}
+
+button.delete-btn {
+    background-color:  #fbb03b;
+    color: white;
+}
+
+button.edit-btn:hover {
+    background-color: #d99a30;
+}
+
+button.delete-btn:hover {
+    background-color: #d99a30;
+}

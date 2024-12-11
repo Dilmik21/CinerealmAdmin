@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+}
+/* Main Content */
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+    width: calc(100% - 260px);
+}
+
+/* Section Styling */
+.report-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-section h2 {
+    color: #12063b;
+    margin-bottom: 15px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.report-btn {
+    padding: 10px;
+    background-color: #fbb03b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.report-btn:hover {
+    background-color:  #d99a30;
+}
+
+.export-btn {
+    padding: 10px;
+    background-color: #fbb03b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.export-btn:hover {
+    background-color:  #d99a30;
+}
+
+/* Result Section */
+.report-result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    min-height: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

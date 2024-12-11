@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+/* Sidebar Styles */
+.sidebar {
+   display: flex;
+    flex-direction: column;
+    width: 250px; /* Fixed width for sidebar */
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(115deg, #12063b, #09555c); /* Deep blue */
+    color: white;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-right: 4px solid #fbb03b; /* Yellow border for emphasis */
+    z-index: 1000;
+}
+
+/* Logo Section */
+.logo {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #f39c12;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.nav-links li {
+    margin: 15px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+/* Profile Dropdown */
+.profile {
+    margin-top: auto;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.profile p {
+    margin: 5px 0;
+    color: #ecf0f1;
+    font-size: 16px;
+}
+
+.profile a {
+    text-decoration: none;
+    color: #f39c12;
+    font-size: 14px;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+/* Logout Button Styles */
+.logout-button {
+    width: 100%; /* Full width button */
+    padding: 10px;
+    background-color: #fbb03b; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #d99a30; 
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
